@@ -1,0 +1,20 @@
+{
+  "name": "raft-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Node/index.js",
+  "scripts": {
+    "first": "node index 9001 0",
+    "second": "node index 9003 9001"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "axios": "^0.20.0"
+  }
+}
